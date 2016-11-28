@@ -1,0 +1,2 @@
+#项目介绍
+使用Kotlin构建的天气应用，结合了Anko，主要资料是KotlinInAndroid
