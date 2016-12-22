@@ -17,4 +17,4 @@ data class ForecastList(val city:String,val country:String,
  *天气model
  */
 data class ModelForecast(val date:String,val description:String,
-                         val high:Int,val low:Int)
+                         val high:Int,val low:Int,val iconUrl:String)
