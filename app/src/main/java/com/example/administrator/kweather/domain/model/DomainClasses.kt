@@ -8,7 +8,7 @@ package com.example.administrator.kweather.domain.model
 /**
  * 天气预报集合
  */
-data class ForecastList(val city:String,val country:String,
+data class ForecastList(val id:Long,val city:String,val country:String,
                         val dailyForecastList: List<ModelForecast>){
     operator fun get(position:Int):ModelForecast=dailyForecastList[position]
     fun size():Int=dailyForecastList.size
@@ -16,5 +16,5 @@ data class ForecastList(val city:String,val country:String,
 /**
  *天气model
  */
-data class ModelForecast(val date:String,val description:String,
+data class ModelForecast(val id: Long,val date:Long,val description:String,
                          val high:Int,val low:Int,val iconUrl:String)
