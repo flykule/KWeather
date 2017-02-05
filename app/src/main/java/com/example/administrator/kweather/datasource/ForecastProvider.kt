@@ -16,12 +16,9 @@
 
 package com.antonioleiva.weatherapp.domain.datasource
 
-import com.antonioleiva.weatherapp.data.db.ForecastDb
-import com.antonioleiva.weatherapp.data.server.ForecastServer
-import com.antonioleiva.weatherapp.domain.model.Forecast
-import com.antonioleiva.weatherapp.domain.model.ForecastList
-import com.antonioleiva.weatherapp.extensions.firstResult
+
 import com.example.administrator.kweather.datasource.ForecastDataSource
+import com.example.administrator.kweather.datasource.ForecastServer
 import com.example.administrator.kweather.db.ForecastDb
 import com.example.administrator.kweather.domain.model.ForecastList
 import com.example.administrator.kweather.domain.model.ModelForecast
